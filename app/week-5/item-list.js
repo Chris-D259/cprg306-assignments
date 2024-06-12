@@ -26,6 +26,7 @@ function itemList(){
 
         
         <div>
+          {/* map over items array and display each item */}
           {sortItems()}
           {itemsArray.map((item) => (
             <Item key={item.id} name={item.name} quantity={item.quantity} category={item.category} />
