@@ -2,7 +2,7 @@
 import Item from './item';
 import { useState } from 'react';
 
-// Create a functional component called ItemList
+// Create a functional component called ItemList with new items prop passed to it
 function ItemList({ items }) {
     // Create state variable
     const [sortBy, setSortBy] = useState('name');
