@@ -27,6 +27,9 @@ export default function page() {
             <Link href="./week-7">
             <p className='underline hover:text-blue-500'>week-7</p>
             </Link>
+            <Link href="./week-8">
+            <p className='underline hover:text-blue-500'>week-8</p>
+            </Link>
           </div>
     </main>
     </>
