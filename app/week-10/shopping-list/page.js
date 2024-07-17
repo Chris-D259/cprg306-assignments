@@ -3,14 +3,12 @@ import MealIdeas from './meal-ideas';
 import Link from 'next/link';
 import ItemList from './item-list';
 import NewItem from './new-item';
-import itemsData from './items.json';
 import { useState } from 'react';
 import { useUserAuth } from '../_utils/auth-context';
 import { useEffect } from 'react';
-import getItems from '../_services/shopping-list-service';
-import addItem from '../_services/shopping-list-service';
+import { getItems, addItem } from '../_services/shopping-list-service';
 export default function Page() {
-  const [items, setItems] = useState(itemsData);
+  const [items, setItems] = useState([]);
   const [selectedItemName, setSelectedItemName] = useState('');
   const {user,firebaseSignOut} = useUserAuth();
   //update event handler to add new item to list

@@ -12,7 +12,7 @@ export default function Page() {
                 <h2 className='text-white p-5 text-center'>Welcome to the Shopping List App!</h2>
                 <div className='flex justify-center items-center'>
                 <button className='text-white bg-violet-700 m-10 p-5' onClick={firebaseSignOut}>Sign Out</button>
-                <button className='text-white bg-violet-700 m-10 p-5' ><Link href="./week-8/shopping-list">Go To Shopping List</Link></button>
+                <button className='text-white bg-violet-700 m-10 p-5' ><Link href="./week-10/shopping-list">Go To Shopping List</Link></button>
                 </div>
                 </div>
                 </>
